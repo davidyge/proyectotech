@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0a0a0a;
+  color: #ffffff;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #d3ae36 0%, #a68a2b 100%);
+}
+
+.gold-text-gradient {
+  background: linear-gradient(135deg, #f0d78c 0%, #d3ae36 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-link:hover {
+  color: #d3ae36;
+  transition: color 0.3s ease;
+}
